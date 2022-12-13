@@ -2481,7 +2481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.9.4":
+"typescript@npm:4.9.4, typescript@npm:^4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -2491,7 +2491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.9.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.9.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"
   bin:
@@ -2570,6 +2570,8 @@ __metadata:
 "yarn-berry-workspace-test@workspace:.":
   version: 0.0.0-use.local
   resolution: "yarn-berry-workspace-test@workspace:."
+  dependencies:
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
